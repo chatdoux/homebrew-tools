@@ -3,7 +3,7 @@ cask "oidc" do
   name "oidc"
   desc "Command line tool to interact with Open ID Connect providers."
   homepage "https://github.com/chatdoux/oidc-cli"
-  version "1.0.6"
+  version "1.0.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "oidc" do
   on_macos do
     on_intel do
       url "https://github.com/chatdoux/oidc-cli/releases/download/v#{version}/oidc-cli_Darwin_x86_64.tar.gz"
-      sha256 "00a0fb0718b0cfcfc720ee95b20acf256b724ed7680f184ea01e1d931e913245"
+      sha256 "b4e55497c2ff07a560ff749397942ee5e0047c885546b54483102003b5c77de7"
     end
     on_arm do
       url "https://github.com/chatdoux/oidc-cli/releases/download/v#{version}/oidc-cli_Darwin_arm64.tar.gz"
-      sha256 "170e8b0aa816e940c0a8788a80967681984abcb5fc2342b8173b26dcc2b49d6d"
+      sha256 "ff7b9b5ee85eef46492fa531ab4d99497f1017318ab014c38d9d6d91d7c777fd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/chatdoux/oidc-cli/releases/download/v#{version}/oidc-cli_Linux_x86_64.tar.gz"
-      sha256 "9e9c8428ef6c8d143ccec23d42822d8422362f4c6f35997c1787f03296cd1fbb"
+      sha256 "4a3fd7658a4974ac99c0e5f43a13d486b35c646cfff2d743c2b9cf7036626145"
     end
     on_arm do
       url "https://github.com/chatdoux/oidc-cli/releases/download/v#{version}/oidc-cli_Linux_arm64.tar.gz"
-      sha256 "aeaf4bf8bdd466eeeebedfdea3d75a73b4c6966387be3b633295329fde829732"
+      sha256 "f73927a68593e4300fafca4941e59e8629cf834cd65dd0aabc8a59db50f6140f"
     end
   end
 
